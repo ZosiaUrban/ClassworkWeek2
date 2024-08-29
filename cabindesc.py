@@ -15,3 +15,5 @@ elif cabin == "B":
     print(B)
 elif cabin == "C":
     print(C)
+elif cabin != "LUX" or cabin != "A" or cabin != "B" or cabin != "C":
+    print("Invalid cabin entered")
